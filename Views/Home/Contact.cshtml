@@ -1,0 +1,28 @@
+﻿@page
+@model WebSite.Views.Home.ContactModel
+@{
+    <div class="text-center">
+        <h1 class="display-5">
+            <font face="Arial">Formulario De Contato!</font>
+    </div>
+
+    <form>
+        <div class="mb-2">
+            <label for="exampleInputEmail1" class="form-label">Seu E-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+        <div class="mb-2">
+                <label for="Telefone" class="form-label">WhatsApp</label>
+                <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="">
+
+        </div>
+        <div class="mb-2">
+            <label for="exampleFormControlTextarea1" class="form-label">Menssagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+        </div>
+            <button type="submit" class="btn btn-secondary">Voltar</button>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+
+}
